@@ -99,6 +99,13 @@
   border-radius: 9px;
 }
 
+.flowers{
+  height: 54px;
+  width: 79px;
+  top: 90%;
+  left: 338px;
+}
+
 
 @media (max-width: 320px) {
   .modal {
