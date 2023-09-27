@@ -1,7 +1,3 @@
-
-
-
-
 .cta{
   display: inline-block;
   padding: 7px 0;
@@ -29,8 +25,8 @@
   align-items: center;
 }
 
-.modal{
-  width: 26%;
+.modal {
+  width: 89%;
   height: 76%;
   border-radius: 10px;
   text-align: center;
@@ -38,7 +34,7 @@
   justify-content: space-between;
   position: relative;
   transition: transform 0.8s;
-  transform:translateY(0);
+  transform: translateY(0);
 }
 .close{
   position: absolute;
@@ -64,127 +60,157 @@
   border-radius: 5px;
   padding: 20px;
   width: 300px;
-  margin: 0 auto;
   margin-top: 59px;
   margin-right: 47px;
+  margin-top: 0px;
 }
 
-.modal_form_input{
-  height: 63px;
+.modal_form_input {
+  height: 48px;
   border-radius: 12px;
-  width: 325px;
+  width: 218px;
   color: #34345A;
-  padding: 7px  
+  padding: 7px;
+  margin-right: 45px;
 }
 .modal_botton{
-  width: 99px;
+    width: 99px;
     height: 38px;
     border-radius: 16px;
     background: #FAAA49;
     color: #ffff;
     border: none;
+    margin-right: 41px;
 }
 .modal-h3{
   font-family: 'Londrina Solid', cursive;
   color: #366640;
-  font-size: 34px;
+  font-size: 28px;
+  padding: 10px;
+  align-items: center;
+  display: flex;
 }
 
+
 .modal-img{
-  left: 77%;
-  height: 95px;
-  width: 97px;
+  left: 66%;
+  height: 97px;
+  width: 100px;
   position: absolute;
-  top: 83%;
+  top: 81%;
   border-radius: 9px;
 }
 
 .flowers{
-  height: 54px;
+  height: 52px;
   width: 79px;
-  top: 90%;
-  left: 338px;
+  top: 88%;
+  left: 209px;
+
 }
+@media (min-width: 768px) and (max-width: 1024px) {
+  .cta {
+    width: auto;
+    padding: 7px 15px; /* Aumenta el padding para el botón */
+  }
 
-
-@media (max-width: 320px) {
   .modal {
-    width: 80%; 
+    width: 45%;
+    height: 74%;
+    margin-top: 7%;
+  }
+
+  .modal-form{
+    margin-right: 31px;
+  }
+
+  .modal_form_input {
+    width: 100%; 
+    margin-right: 0; 
+  }
+
+  .modal_botton {
+    margin-right: 0;
+  }
+
+  .modal-img {
+    width: 86px;
     height: auto;
-  }
-  
-  .modal-form {
-    width: 90%; 
-    max-width: none; 
-  }
-  
-  .modal_form_input {
-    width: 100%; 
-  }
-  
-  .modal-h3 {
-    font-size: 16px;
-  }
-  
-  .modal-img {
-    width: 40px; 
-    height: auto; 
-  }
+    top: 83%;
+    left: 260px;
 }
+.flowers {
+  left: 281px;
+  width: 62px;
+}
+}
+@media (min-width: 1024px) {
+  .cta {
+    width: auto;
+    padding: 7px 15px; /* Aumenta el padding para el botón */
+  }
 
-
-@media (max-width: 768px) {
   .modal {
-    width: 37%;
-    height: 81%;
+    width: 36%;
+    height: 70%;
+    margin-top: 5%;
   }
-  
+
   .modal-form {
-    width: 100%; 
-    max-width: none; 
+    margin-right: 15px; /* Ajusta el margen derecho en el formulario */
+    margin-top: 0px; /* Elimina el margen superior en el formulario */
   }
-  
+
   .modal_form_input {
-    width: 89%; 
-  }
-  
-  .modal-h3 {
-    font-size: 20px; 
-  }
-  
-    /* .modal-img {
-      width: 93px;
-      height: 91px;
-    } */
-}
-
-
-
-@media (max-width: 1124px) {
-  .modal {
-    width: 39%;
-    max-width: 600px;
-    height: 87%;
-  }
-  
-  .modal-form {
-    width: 80%; 
-    max-width: 400px; 
-  }
-  
-  .modal_form_input {
-    width: 100%; 
+    width: 100%; /* Hace que el campo de entrada sea ancho completo */
+    margin-right: 0; /* Elimina el margen derecho en el campo de entrada */
   }
 
 
-  
-  .modal-h3 {
-    font-size: 24px; 
-  }
-  
   .modal-img {
-    width: 98px; 
+    width: 100px;
+    height: auto;
+    top: 80%;
+    left: 73%;
+}
+
+  .flowers {
+    width: auto;
+    left: 303px;
+    top: 379px;
   }
 }
+/* Estilos para pantallas mayores o iguales a 1044px */
+@media (min-width: 1440px) {
+
+  .modal {
+    width: 25%; /* Reduce el ancho del modal */
+    height: 71%; /* Reduce la altura del modal */
+  }
+
+  .modal-form {
+    margin-right: 10px; /* Ajusta el margen derecho en el formulario */
+    margin-top: 0px; /* Elimina el margen superior en el formulario */
+  }
+
+  .modal_form_input {
+    width: 100%; /* Hace que el campo de entrada sea ancho completo */
+    margin-right: 0; /* Elimina el margen derecho en el campo de entrada */
+  }
+
+  .modal-img {
+    width: 110px;
+    height: auto;
+    top: 79%;
+    left: 70%;
+  }
+
+  .flowers {
+    top: 379px;
+    width: 57px;
+    left: 300px;
+  }
+}
+
 
 
