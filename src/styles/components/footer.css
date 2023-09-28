@@ -23,6 +23,10 @@
   margin-top: 15px;
 }
 
+.logo {
+  height: 60px;
+}
+
 .container-media a{
   display: block;
   text-decoration: none;
@@ -49,7 +53,6 @@
 
 @media (min-width: 768px) {
   .logo {
-    width: 90px;
     height: 95px;
   }
 
