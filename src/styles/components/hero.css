@@ -1,5 +1,6 @@
 .hero {
   position: relative;
+  padding: 40px 30px 0;
 }
 
 .hero-bg {
@@ -15,11 +16,9 @@
   background-position: center;
 }
 
-.hero .content-wrapper {
+.hero-info {
   position: relative;
   z-index: 1;
-  margin: 0 30px;
-  padding: 30px 0 0;
 }
 
 .hero-info__sale {
@@ -44,68 +43,39 @@
   margin: 0 auto;
 }
 
-@media (min-width: 480px) {
+@media (min-width: 768px) {
   .hero {
     display: flex;
     align-items: center;
     justify-content: center;
+    align-items: initial;
+    padding: 40px 100px 0;
   }
-
+  
   .hero-bg {
     height: 380px;
   }
 
-  .hero .content-wrapper {
-    width: 50%;
-    margin: 0 0 0 30px;
-    padding: 30px 0 0;
-  }
-
   .hero-image {
-    height: 280px;
-  }
-}
-
-@media (min-width: 768px) {
-  .hero {
-    align-items: initial;
-    padding: 20px 0 0;
-  }
-
-  .hero-bg {
-    height: 420px;
-  }
-
-  .hero .content-wrapper {
-    width: 40%;
-    margin: 30px 0 0 30px;
-    padding: 30px 0 0 30px;
-  }
-
-  .hero-image {
-    height: 450px;
-    margin: 30px 0 0;
+    height: 330px;
+    position: relative;
+    left: 5%;
   }
 }
 
 @media (min-width: 1024px) {
   .hero {
-    align-items: initial;
-    padding: 40px 0 0;
+    padding: 80px 160px 0;
   }
-
+  
   .hero-bg {
-    height: 400px;
-  }
-
-  .hero .content-wrapper {
-    width: 40%;
-    margin: 30px 0 0 30px;
-    padding: 30px 0 0 30px;
+    height: 440px;
   }
 
   .hero-image {
-    height: 450px;
-    margin: 30px 0 0;
+    height: 440px;
+    position: relative;
+    left: 5%;
+    /* bottom: 50px; */
   }
 }
