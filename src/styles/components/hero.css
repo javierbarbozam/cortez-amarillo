@@ -32,7 +32,7 @@
 .hero-info__sale-price-new {
   text-decoration: line-through;
   margin-left: 5px;
-  color: rgba(100.85, 100.85, 115.81, 0.7);
+  color: var(--discount-gray)
 }
 
 .hero-image {
@@ -76,6 +76,5 @@
     height: 440px;
     position: relative;
     left: 5%;
-    /* bottom: 50px; */
   }
 }
