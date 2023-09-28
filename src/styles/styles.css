@@ -1,4 +1,6 @@
 @import './components/main-rules.css';
 @import './components/button.css';
+@import './components/hero.css';
+@import './components/modalStyles.css';
 @import './components/footer.css';
-@import './components/modalStyles.css'
+
