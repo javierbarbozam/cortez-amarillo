@@ -1,10 +1,10 @@
-let cerrar = document.querySelectorAll(".close")[0];
-let abrir = document.querySelectorAll(".cta")[0];
-let modal= document.querySelectorAll(".modal")[0];
-let modalC = document.querySelectorAll(".modal-container")[0];
+let close = document.getElementsByClassName("close")[0];
+let open = document.getElementsByClassName("cta")[0];
+let modal= document.getElementsByClassName("modal")[0];
+let modalC = document.getElementsByClassName("modal-container")[0];
 let contenidoDinamico = document.getElementById("dynamic-modal");
 
-abrir.addEventListener("click", function(e){
+open.addEventListener("click", function(e){
     e.preventDefault();
     modalC.style.opacity= "1";
     modalC.style.visibility= "visible";
@@ -30,10 +30,10 @@ let closeModal = function() {
     }, 900);
 };
 
-cerrar.addEventListener("click", closeModal);
+close.addEventListener("click", closeModal);
 
 window.addEventListener("click", function(e) {
-    if (e.target == modalC) {
+    if (e.target === modalC) {
         closeModal();
     }
 });
