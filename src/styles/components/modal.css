@@ -22,18 +22,21 @@
   background-repeat: no-repeat;
   background-size: cover;
   background-position: top center;
-  padding: 10px;
 }
 
 .modal {
   z-index: 200;
   height: 500px;
-  width: 290px;
+  width: 350px;
+}
+
+.overflowHidden {
+  overflow: hidden !important
 }
 
 @media (min-width: 480px) {
   .modal {
-    height: 650px;
+    height: 80vh;
     width: 450px;
   }
 
@@ -44,14 +47,12 @@
 
 @media (min-width: 768px) {
   .modal {
-    height: 650px;
     width: 650px;
   }
 }
 
 @media (min-width: 1024px) {
   .modal {
-    max-height: 1200px;
     height: 600px;
     width: 650px;
   }
