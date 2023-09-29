@@ -53,8 +53,8 @@ p {
     font-size: 40px;
   }
 
-  .content-wrapper {
-    margin-left: 160px;
-    margin-right: 160px;
+  .content--max-width {
+    max-width: 1200px;
+    margin: 0 auto;
   }
 }
