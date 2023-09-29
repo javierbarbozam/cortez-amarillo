@@ -1,5 +1,5 @@
 let close = document.getElementsByClassName("close")[0];
-let open = document.getElementsByClassName("cta")[0];
+let open = document.getElementsByClassName("btn")[0];
 let modal= document.getElementsByClassName("modal")[0];
 let modalC = document.getElementsByClassName("modal-container")[0];
 let contenidoDinamico = document.getElementById("dynamic-modal");
