@@ -70,11 +70,6 @@
     width: 50%;
   }
 
-  .content-box {
-    margin-left: 0;
-    margin-right: 0;
-  }
-
   .leaf-image {
     width: 300px;
     top: 450px;
@@ -94,6 +89,6 @@
 
   .ar-image {
     width: 260px;
-    right: -150px;
+    right: -130px;
   }
 }
