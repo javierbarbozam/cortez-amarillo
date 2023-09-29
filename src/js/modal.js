@@ -1,22 +1,18 @@
 const openBtn = document.getElementById("preorder-btn-open");
 const closeBtn = document.getElementById("preorder-btn-close");
 const container = document.getElementsByClassName("modal-container")[0];
-
-
-const blockOtherContent = () => {
-  const content = document.querySelector('body');
-  content.classList.toggle('overflowHidden');
-}
+const backgroundContent = document.querySelector('body');
 
 const closeModal = () => {
   closeBtn.addEventListener("click", () => {
     container.style.display = "none";
-    blockOtherContent();
+    backgroundContent.classList.remove('overflowHidden')
+    
   });
 
   container.addEventListener("click", () => {
     container.style.display = "none";
-    blockOtherContent();
+    backgroundContent.classList.remove('overflowHidden')
   });
 };
 
@@ -24,8 +20,8 @@ const initModal = () => {
   openBtn.addEventListener("click", function (e) {
     e.preventDefault();
     container.style.display = "flex";
+    backgroundContent.classList.add('overflowHidden')
     closeModal();
-    blockOtherContent();
   });
 }
 
