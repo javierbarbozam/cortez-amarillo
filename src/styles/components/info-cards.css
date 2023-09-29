@@ -1,0 +1,137 @@
+.content-box {
+  border-radius: 10px;
+  background-color: var(--white);
+  box-shadow: 0px 2px 5px rgba(142, 169, 175, 0.1);
+}
+
+.book-content {
+  margin-top: 150px;
+  position: relative;
+}
+
+.leave-image {
+  width: 120px;
+  position: absolute;
+  top: -25px;
+  left: -30px;
+}
+
+.book-description {
+  margin-bottom: 15px;
+}
+
+.flower-image {
+  width: 90px;
+  position: absolute;
+  bottom: 1px;
+  right: -12px;
+}
+
+.title--margin {
+ margin-top: 20px;
+}
+
+.app-content {
+  display: flex;
+  align-items: center;
+}
+
+.apps-image {
+  width: 160px;
+  margin-right: 14px;
+  margin-left: -6px;
+}
+
+.ar-image {
+  width: 170px;
+  margin-left: 3px;
+  margin-right: -61px;
+}
+
+@media screen and (min-width: 768px){
+  .leave-image {
+    width: 205px;
+    top: -55px;
+    left: -100px;
+  }
+
+  .book-description {
+    margin-bottom: 25px;
+    font-size: 20px;
+  }
+
+  .flower-image {
+    width: 90px;
+  }
+
+  .app-description {
+    font-size: 20px;
+  }
+  
+  .apps-image {
+    width: 210px;
+    margin-right: 30px;
+    margin-left: 30px;
+  }
+
+  .app-title--margin {
+    margin-top: 15px;
+    margin-left: 30px
+  }
+
+  .ar-description {
+    font-size: 20px;
+  }
+
+  .ar-image {
+    width: 175px;
+  }
+}
+
+@media (min-width: 1024px) {
+  .content--flex {
+    display: flex;
+  }
+
+  .title--margin {
+    margin-left: 33px;
+  }
+
+  .leave-image {
+    width: 255px;
+    top: -59px;
+    left: -161px;
+  }
+
+  .flower-image {
+    width: 100px;
+  }
+
+  .book-description {
+    font-size: 24px;
+    margin-left: 33px;
+    margin-right: 70px;
+  }
+
+  .app-box {
+    width: 1890px;
+    margin-right: 10px
+  }
+
+  .ar-box {
+    margin-left: 0px;
+    margin-right: 160px
+  }
+
+  .ar-description {
+    font-size: 24px;
+  }
+
+  .ar-image {
+    width: 300px;
+  }
+
+  .app-description {
+    font-size: 24px;
+  }
+}
