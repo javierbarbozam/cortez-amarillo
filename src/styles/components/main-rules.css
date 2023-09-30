@@ -52,10 +52,6 @@ p {
 }
 
 @media (min-width: 768px) {
-  p {
-    line-height: 25px;
-  }
-  
   .content-wrapper {
     margin-left: 100px;
     margin-right: 100px;
