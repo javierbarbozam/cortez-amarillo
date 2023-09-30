@@ -10,7 +10,7 @@ body {
 }
 
 p {
-  line-height: 20px;
+  line-height: 140%;
   font-weight: 400;
   color: var(--darkblue);
   font-size: 1rem;
