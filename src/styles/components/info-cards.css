@@ -32,18 +32,18 @@
 
 .ar-image {
   position: absolute;
-  width: 170px;
-  right:-60px;
+  width: 180px;
+  right: -90px;
 }
 
 .ar-description {
-  width: 60%;
+  width: 70%;
 }
 
 @media screen and (min-width: 768px){
   .leaf-image {
-    width: 205px;
-    top: 600px;
+    width: 147px;
+    top: 610px;
   }
 
   .flower-image {
@@ -71,8 +71,8 @@
   }
 
   .leaf-image {
-    width: 300px;
-    top: 450px;
+    width: 235px;
+    top: 460px;
   }
 
   .flower-image {
@@ -81,6 +81,10 @@
 
   .app-box{
     margin-right: 0;
+  }
+
+  .ar-content {
+    top: 40px;
   }
 
   .ar-box {
