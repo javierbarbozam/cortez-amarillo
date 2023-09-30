@@ -40,10 +40,16 @@
                   >₡21.000</span
                 >
               </p>
-              <button id="preorder-btn-open" class="btn">Pre ordénalo ya</button>
+              <button id="preorder-btn-open" class="btn">
+                Pre ordénalo ya
+              </button>
             </div>
           </div>
-          <img class="hero-image" src="/src/assets/images/hero-book.png" alt="" />
+          <img
+            class="hero-image"
+            src="/src/assets/images/hero-book.png"
+            alt=""
+          />
         </div>
         <div class="hero-bg"></div>
       </div>
@@ -52,11 +58,11 @@
         <div class="content-wrapper content-box">
           <h2 class="title">¿Nos conocemos?</h2>
           <p>
-            ¡En este libro los animales cobran vida! Los niños que empiezan a leer
-            sus primeras frases, podrán vivir un increíble viaje conociendo
-            algunos animales de Costa Rica, haciendo uso de la realidad aumentada.
-            En este libro podrán leer y ver cómo sus páginas atesoran sorpresas
-            animadas.
+            ¡En este libro los animales cobran vida! Los niños que empiezan a
+            leer sus primeras frases, podrán vivir un increíble viaje conociendo
+            algunos animales de Costa Rica, haciendo uso de la realidad
+            aumentada. En este libro podrán leer y ver cómo sus páginas atesoran
+            sorpresas animadas.
           </p>
           <img class="flower-image" src="/src/assets/images/flower-image.svg" />
         </div>
@@ -76,8 +82,8 @@
             <div class="app-content">
               <p class="ar-description">
                 Escanea las páginas y sumérgete en un mundo donde los cuentos se
-                animan y resuenan, haciendo que los niños se conecten y recuerden
-                con alegría.
+                animan y resuenan, haciendo que los niños se conecten y
+                recuerden con alegría.
               </p>
               <img class="ar-image" src="/src/assets/images/ar-image.svg" />
             </div>
@@ -112,9 +118,21 @@
       </div>
     </footer>
   </body>
-  <div class="modal-container">
-    <iframe class="modal content-box" src="https://docs.google.com/forms/d/e/1FAIpQLSeH4yEMljk2iXhknXVsJ8sUia67qGL_H2Td3akwZNdNWbVmRA/viewform?embedded=true" frameborder="0" marginheight="0" marginwidth="0">Cargando…</iframe>
-    <button id="preorder-btn-close" class="btn">Cerrar</button>
+  <div class="modal">
+    <div class="modal-item">
+      <iframe
+        class="modal-iframe content-box"
+        src="https://docs.google.com/forms/d/e/1FAIpQLSeH4yEMljk2iXhknXVsJ8sUia67qGL_H2Td3akwZNdNWbVmRA/viewform?embedded=true"
+        frameborder="0"
+        marginheight="0"
+        marginwidth="0"
+        >Cargando…</iframe
+      >
+      <button id="preorder-btn-close" class="btn btn--modal">
+        <span class="visually-hidden">Cerrar</span>
+        <div class="btn-close-icon"></div>
+      </button>
+    </div>
   </div>
   <script src="./main.js" type="module"></script>
 </html>

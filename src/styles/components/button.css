@@ -23,14 +23,19 @@
   transform: scale(0.9);
 }
 
-@media (min-width: 480px) {
-  .btn {
-    padding: 10px 20px;
-  }
+.btn--modal {
+  position: absolute;
+  right: -15px;
+  top: -15px;
+  margin: 0;
+  background-color: var(--darkgreen);
+  box-shadow: rgba(12, 12, 12, 0.478) 0px 2px 5px;
+  padding: 20px;
 }
 
-@media (min-width: 1024px) {
-  .btn {
-    padding: 10px 20px;
-  }
+.btn-close-icon {
+  background-image: url(/src/assets/icons/close-icon.png);
+  background-size: contain;
+  width: 15px;
+  aspect-ratio: 1/1;
 }
