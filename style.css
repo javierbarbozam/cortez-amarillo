@@ -21,17 +21,17 @@ a {
   top: 0;
 }
 
-.hojas {
+.leaves {
   top: -30px;
   left: 60px;
 }
 
-.hojas2 {
+.leaves-position {
   top: 50px;
   left: -40px;
 }
 
-.plantas {
+.plants {
   width: 200px;
   position: absolute;
   right: 0;
@@ -69,25 +69,14 @@ a {
 
   .img-position {
     width: 232px;
-    position: absolute;
-    left: 0;
-    top: 0;
   }
-  
-  .hojas {
-    top: -30px;
-    left: 60px;
-  }
-  
-  .hojas2 {
+
+  .leaves-position {
     top: 100px;
     left: -90px;
   }
   
-  .plantas {
+  .plants {
     width: 500px;
-    position: absolute;
-    right: 0;
-    bottom: 0;
   }
 }
