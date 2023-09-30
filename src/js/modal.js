@@ -1,6 +1,6 @@
 const openBtn = document.getElementById("preorder-btn-open");
 const closeBtn = document.getElementById("preorder-btn-close");
-const container = document.getElementsByClassName("modal-container")[0];
+const container = document.getElementsByClassName("modal")[0];
 const backgroundContent = document.querySelector('body');
 
 const closeModal = () => {
@@ -19,7 +19,7 @@ const closeModal = () => {
 const initModal = () => {
   openBtn.addEventListener("click", function (e) {
     e.preventDefault();
-    container.style.display = "flex";
+    container.style.display = "initial";
     backgroundContent.classList.add('overflowHidden')
     closeModal();
   });
